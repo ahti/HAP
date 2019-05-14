@@ -15,7 +15,7 @@ let package = Package(
         .package(url: "https://github.com/Bouke/Evergreen.git", from: "2.0.0"),
         .package(url: "https://github.com/IBM-Swift/BlueCryptor.git", from: "1.0.21"),
         .package(url: "https://github.com/crossroadlabs/Regex.git", from: "1.1.0"),
-        .package(url: "https://github.com/apple/swift-nio.git", from: "1.11.0"),
+        .package(url: "https://github.com/apple/swift-nio.git", from: "2.0.0"),
     ],
     targets: [
         .target(name: "CQRCode"),
